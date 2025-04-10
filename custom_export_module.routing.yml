@@ -1,0 +1,6 @@
+custom_export_module.content:
+  path: '/export-data'
+  defaults:
+    _controller: '\Drupal\custom_export_module\Controller\DisplayController::content'
+  requirements:
+    _permission: 'access content'

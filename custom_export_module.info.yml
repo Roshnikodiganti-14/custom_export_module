@@ -1,0 +1,8 @@
+name: 'Custom Export Module'
+type: module
+description: 'Exports allocation outlook data as a downloadable CSV file.'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - views
+  - paragraphs
